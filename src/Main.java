@@ -29,5 +29,16 @@ public class Main {
         System.out.println(x);
         byte r = 67;
         System.out.println(r);
-    }
+        short teacher1 = 23;
+        short teacher2 = 27;
+        short teacher3 = 30;
+        System.out.println(teacher1);
+        System.out.println(teacher2);
+        System.out.println(teacher3);
+        System.out.println(" Всего Учеников " + ( teacher1 + teacher2 + teacher3));
+    short papper = 480;
+        System.out.println(papper);
+    int allStudents = teacher1+teacher2+teacher3;
+        System.out.println(allStudents);
+        System.out.println(" Бумаги на каждого ученика " + (papper / allStudents));}
 }
