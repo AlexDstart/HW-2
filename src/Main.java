@@ -73,5 +73,19 @@ public class Main {
     int totalBrownJar = browneJar * totalClass;
         System.out.println(totalWhiteJar);
         System.out.println(totalBrownJar);
-        System.out.println(" В школе, где " + totalClass + " классов, нужно " + totalWhiteJar + " банок белой краски и " + totalBrownJar+ " банок коричневой краски " );}
+        System.out.println(" В школе, где " + totalClass + " классов, нужно " + totalWhiteJar + " банок белой краски и " + totalBrownJar+ " банок коричневой краски " );
+        System.out.println(" Задача 6 ");
+    int banana = 80;
+    int milks = 105 ;
+    int icecream = 100;
+    int egg = 70;
+        System.out.println(banana);
+        System.out.println(milks);
+        System.out.println(icecream);
+        System.out.println(egg);
+    int breakfast = banana * 5 + milks * 2 + icecream * 2 + egg * 4;
+        System.out.println(breakfast);
+    int breakfastKg = breakfast / 1000;
+        System.out.println(breakfastKg);
+        System.out.println(" Общий вес завтрака " + breakfastKg + " кг ");}
 }
