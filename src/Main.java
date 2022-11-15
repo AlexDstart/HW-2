@@ -57,5 +57,21 @@ public class Main {
         System.out.println("За 20 машины произвела бутылок " + outPut20min + " штук ");
         System.out.println(" За сутки машины произвели бутылок" + outPutDay + " штук ");
         System.out.println(" За 3 дня машины произвели бутылок " + outPut3Days + " штук ");
-        System.out.println(" За месяц машины произвели бутылок " + outPutMonth + " штук ");}
+        System.out.println(" За месяц машины произвели бутылок " + outPutMonth + " штук ");
+        System.out.println( " Задание 5 ");
+    int totalJar = 120 ;
+    int whiteJar = 2;
+    int browneJar = 4;
+    int totalJarClass = whiteJar + browneJar ;
+    int totalClass = totalJar / totalJarClass ;
+        System.out.println(totalJar);
+        System.out.println( whiteJar);
+        System.out.println(browneJar);
+        System.out.println(totalJarClass);
+        System.out.println(totalClass);
+    int totalWhiteJar = whiteJar * totalClass;
+    int totalBrownJar = browneJar * totalClass;
+        System.out.println(totalWhiteJar);
+        System.out.println(totalBrownJar);
+        System.out.println(" В школе, где " + totalClass + " классов, нужно " + totalWhiteJar + " банок белой краски и " + totalBrownJar+ " банок коричневой краски " );}
 }
