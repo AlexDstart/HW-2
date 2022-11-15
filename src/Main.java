@@ -40,5 +40,22 @@ public class Main {
         System.out.println(papper);
     int allStudents = teacher1+teacher2+teacher3;
         System.out.println(allStudents);
-        System.out.println(" Бумаги на каждого ученика " + (papper / allStudents));}
+        System.out.println(" Бумаги на каждого ученика " + (papper / allStudents));
+        System.out.println(" Задание 4 ");
+    int outPutMinBottles = 16 / 2 ;
+    int outPut20min = outPutMinBottles * 20 ;
+        System.out.println(outPutMinBottles);
+        System.out.println(outPut20min);
+    int outPutHour = outPutMinBottles * 60;
+    int outPutDay = outPutHour * 24;
+    int outPut3Days = outPutDay * 3;
+        System.out.println(outPutHour);
+        System.out.println(outPutDay);
+        System.out.println(outPut3Days);
+    int outPutMonth = outPutDay * 30;
+        System.out.println(outPutMonth);
+        System.out.println("За 20 машины произвела бутылок " + outPut20min + " штук ");
+        System.out.println(" За сутки машины произвели бутылок" + outPutDay + " штук ");
+        System.out.println(" За 3 дня машины произвели бутылок " + outPut3Days + " штук ");
+        System.out.println(" За месяц машины произвели бутылок " + outPutMonth + " штук ");}
 }
