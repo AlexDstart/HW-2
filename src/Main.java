@@ -97,5 +97,29 @@ public class Main {
         System.out.println(" Минимальное колличество дней " + minWeightDay);
         System.out.println(" Максимальное колличество дней " + maxWeghtDay );
     int averageWeigt = ( minWeightDay + maxWeghtDay) / 2;
-        System.out.println(" Среднее колличество дней " + averageWeigt );}
+        System.out.println(" Среднее колличество дней " + averageWeigt );
+        System.out.println(" Задание 8 ");
+        double masha = 67760;
+        double denis = 83690;
+        double kristina = 76230;
+        double mashaYear = masha * 12;
+        double denisYear = denis * 12;
+        double kristinaYear= kristina * 12;
+        System.out.println(masha);
+        System.out.println(denis);
+        System.out.println(kristina);
+
+        System.out.println(mashaYear);
+        System.out.println(denisYear);
+        System.out.println(kristinaYear);
+        masha = masha + masha * 0.1;
+        denis = denis + denis * 0.1;
+        kristina =  kristina + kristina  * 0.1;
+        mashaYear = masha * 12 - mashaYear;
+        denisYear = denis * 12 - denisYear;
+        kristinaYear = kristina * 12 - kristinaYear;
+
+        System.out.println(" Маша теперь получает " + masha + " рублей. Годовой доход вырос на " + mashaYear + " рублей.");
+        System.out.println(" Денис теперь получает " + denis + " рублей. Годовой доход вырос на " + denisYear + " рублей.");
+        System.out.println(" Кристина теперь получает " + kristina + " рублей. Годовой доход вырос на " + kristinaYear + " рублей."); }
 }
