@@ -87,5 +87,15 @@ public class Main {
         System.out.println(breakfast);
     int breakfastKg = breakfast / 1000;
         System.out.println(breakfastKg);
-        System.out.println(" Общий вес завтрака " + breakfastKg + " кг ");}
+        System.out.println(" Общий вес завтрака " + breakfastKg + " кг ");
+        System.out.println(" Задание 7 ");
+    int totalweight = 7000;
+    int minWeight = 250;
+    int maxWeight = 500;
+    int minWeightDay = totalweight / minWeight;
+    int maxWeghtDay = totalweight / maxWeight;
+        System.out.println(" Минимальное колличество дней " + minWeightDay);
+        System.out.println(" Максимальное колличество дней " + maxWeghtDay );
+    int averageWeigt = ( minWeightDay + maxWeghtDay) / 2;
+        System.out.println(" Среднее колличество дней " + averageWeigt );}
 }
